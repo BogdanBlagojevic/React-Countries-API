@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FilterCountry = ({ onSelect }) => { // Destrukturiramo onSelect iz props
+const FilterCountry = ({ onSelect }) => {
     const continents = [
         { id: 1, name: "Africa" },
         { id: 2, name: "Antarctic" },

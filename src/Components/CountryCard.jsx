@@ -10,10 +10,10 @@ const CountryCard = ({ country, style }) => {
       <img
         src={country.flags.svg}
         alt={`${country.name.common} flag`}
-        className='w-full h-[150px] object-cover rounded-xl border border-c4' // Added border color
+        className='w-full h-[150px] object-cover rounded-xl border border-c4' 
       />
       <div className='mt-4'>
-        <h2 className='text-xl font-bold truncate text-c6'>{country.name.common}</h2> {/* Updated text color */}
+        <h2 className='text-xl font-bold truncate text-c6'>{country.name.common}</h2> 
         <p className='text-sm mt-2 flex items-center'>
           <FaUser className='mr-2' />
           <strong className='mr-1'>Population: </strong>
