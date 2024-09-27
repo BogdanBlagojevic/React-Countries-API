@@ -9,3 +9,7 @@ Currently, two official plugins are available:
 
 
 LINK: https://react-countries-api-omega.vercel.app/
+
+
+![image](https://github.com/user-attachments/assets/b0cf2dc5-60a4-437b-af16-b3fb7f908ac8)
+
