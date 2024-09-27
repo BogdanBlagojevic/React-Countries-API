@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { LinkedIn, GitHub, Instagram, Twitter, Menu, Close } from '@mui/icons-material';
 
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,7 +24,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaLinkedin />
+                                    <LinkedIn />
                                 </a>
                             </li>
                             <li>
@@ -35,7 +34,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaGithub />
+                                    <GitHub />
                                 </a>
                             </li>
                             <li>
@@ -45,7 +44,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaInstagram />
+                                    <Instagram />
                                 </a>
                             </li>
                             <li>
@@ -55,19 +54,19 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaTwitter />
+                                    <Twitter />
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div className='lg:hidden flex items-center'>
                         <button onClick={toggleMenu} className='text-c6 text-3xl'>
-                            {isOpen ? <FaTimes /> : <FaBars />}
+                            {isOpen ? <Close /> : <Menu />}
                         </button>
                     </div>
                 </div>
 
-                {/* Mobile Menu */}
+              
                 {isOpen && (
                     <div className='lg:hidden flex flex-col items-center'>
                         <ul className='flex flex-col gap-4 text-[20px] py-4'>
@@ -78,7 +77,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaLinkedin />
+                                    <LinkedIn />
                                 </a>
                             </li>
                             <li>
@@ -88,7 +87,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaGithub />
+                                    <GitHub />
                                 </a>
                             </li>
                             <li>
@@ -98,7 +97,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaInstagram />
+                                    <Instagram />
                                 </a>
                             </li>
                             <li>
@@ -108,7 +107,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaTwitter />
+                                    <Twitter />
                                 </a>
                             </li>
                         </ul>

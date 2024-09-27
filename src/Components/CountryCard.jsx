@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUser, FaGlobe, FaCity } from 'react-icons/fa';
+import { Person, Language, Place } from '@mui/icons-material';
 
 const CountryCard = ({ country, style }) => {
   return (
@@ -15,17 +15,17 @@ const CountryCard = ({ country, style }) => {
       <div className='mt-4'>
         <h2 className='text-xl font-bold truncate text-c6'>{country.name.common}</h2> 
         <p className='text-sm mt-2 flex items-center'>
-          <FaUser className='mr-2' />
+          <Person className='mr-2' />
           <strong className='mr-1'>Population: </strong>
           {country.population.toLocaleString()}
         </p>
         <p className='text-sm mt-1 flex items-center'>
-          <FaGlobe className='mr-2' />
-          <strong className='mr-1' >Region:</strong>
+          <Language className='mr-2' />
+          <strong className='mr-1'>Region:</strong>
           {country.region}
         </p>
         <p className='text-sm mt-1 flex items-center'>
-          <FaCity className='mr-2' />
+          <Place className='mr-2' />
           <strong className='mr-1'>Capital: </strong>
           {country.capital || 'N/A'}
         </p>
