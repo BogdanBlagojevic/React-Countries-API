@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Nav = () => {
@@ -56,7 +55,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaSquareXTwitter />
+                                    <FaTwitter />
                                 </a>
                             </li>
                         </ul>
@@ -109,7 +108,7 @@ const Nav = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <FaSquareXTwitter />
+                                    <FaTwitter />
                                 </a>
                             </li>
                         </ul>
